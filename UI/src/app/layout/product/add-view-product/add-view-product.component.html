@@ -1,0 +1,53 @@
+<form [formGroup]="CstmForm" style="margin-top: 28px;">
+  <div class="row">
+     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+
+        <div class="form-group row">
+           <label for="email_address" class="col-md-4 col-form-label">Product Name<span style="color: darkred">*</span></label>
+           <div class="col-md-8 form-err">
+              <input type="text" formControlName="name" id=""
+                 class="form-control" name="">
+              <span style="color: red" 
+                 *ngIf="!CstmForm.controls['name'].valid && ( CstmForm.controls['name'].touched)">
+                 Please enter Product Name.
+              </span>
+           </div>
+        </div>
+
+        <div class="form-group row">
+           <label for="email_address" class="col-md-4 col-form-label">Description</label>
+           <div class="col-md-8 form-err">
+              <input type="text" formControlName="description" id=""
+                 class="form-control" name="">
+              <!-- <span
+                 *ngIf="!CstmForm.controls['description'].valid && ( CstmForm.controls['description'].touched)">
+                 Please enter Customer Address.
+              </span> -->
+           </div>
+        </div>
+
+     </div>
+     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+
+        <div class="form-group row">
+           <label for="email_address" class="col-md-4 col-form-label">Quantity<span style="color: darkred">*</span></label>
+           <div class="col-md-8 form-err">
+              <input type="number" formControlName="quatity" id=""
+                 class="form-control" name="">
+              <span style="color: red" 
+                 *ngIf="!CstmForm.controls['quatity'].valid && ( CstmForm.controls['quatity'].touched)">
+                 Please enter Product Quantity.
+              </span>
+           </div>
+        </div>
+
+     </div>
+    
+  </div>
+
+  <div style="text-align: center; margin-top: 15px;margin-bottom: 15px;">
+    <button  type="button" class="btn btn-success" [disabled]="!CstmForm.valid" (click)="onSubmit()" style="margin: 0 30px;" *ngIf="formType == 'add'">Create</button>
+    <button type="button" class="btn btn-danger" (click)="onCancel()">Cancel</button>
+  </div>
+
+</form>
