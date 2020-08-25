@@ -8,13 +8,9 @@ This project was generated with [Angular] and [NodeJS]
 
 ## Login Credentials
 
-1) Share Allotment - 2 company <br />
-Email - ria@mailinator.com <br />
-Password - #321Ria
-
-2) Share Allotment - 1 company <br />
-Email - grand@mailinator.com <br />
-Password - Grand987$
+1) Credentials One <br />
+Email - mayank.agr2@gmail.com <br />
+Password - Qwerty@123
 
 ## Further help
 
