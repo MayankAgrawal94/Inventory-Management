@@ -4,7 +4,7 @@ This project was generated with [Angular] and [NodeJS]
 
 ## Check Online 
 
-[Link 1](http://mayank.info/git_publish/inventory-mgmt/)
+[Link 1](http://mayankagrawal.co.in/git_publish/inventory-mgmt/)
 
 ## Login Credentials
 
