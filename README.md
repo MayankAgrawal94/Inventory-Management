@@ -14,4 +14,4 @@ Password - Qwerty@123
 
 ## Further help
 
-To get more help on this connect me at `mayank.agr2@gmail.com` or can DM me on [LinkedIn](https://www.linkedin.com/in/mayank-agrawal-59192940/).
+To get more help on this connect me at `jobs@mayankagrawal.co.in` or can DM me on [LinkedIn](https://www.linkedin.com/in/mayank-agrawal-59192940/).
